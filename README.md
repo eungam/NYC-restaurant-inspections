@@ -19,5 +19,11 @@ In the case of *GRADE* prediction, the Naive Bayes classification had a better s
 
 It's interesting to look at the confusion matrices of the classifier models and see the wrong predictions on both sides of the spectrum: restaurants being predicted an A when they should get a B or C, and vice-versa. Such errors could mean potential problems in the case of a real-life application of this modeling.
 
+![Random forest confusion matrix](https://github.com/mdznsk/NYC-restaurant-inspections/blob/master/Capture%20d%E2%80%99e%CC%81cran%202020-08-28%20a%CC%80%2021.20.47.png)
+
 ## Just for fun: reverse engineering
 I did a logistic regression to see if it could accurately predict *GRADE* based on *SCORE* and... it did! Which is re-assuring, as each *GRADE* is determined by a set number of points.
+
+![Dataset](https://github.com/mdznsk/NYC-restaurant-inspections/blob/master/log%20reg.png)
+
+Scatter plot of *SCORE* vs *GRADE* results via logistic regression
